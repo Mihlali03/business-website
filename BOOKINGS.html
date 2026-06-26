@@ -9,10 +9,10 @@
 <h2> <font face= "Goudy Stout" color = "blue" size = "4">APPOINTNENT DETAILS</h2></font>
 <form action="https://formspree.io/f/meebgqqk" method="POST">
     <label> Full name: </label><br>
-	<input type="text" required><br><br>
-	
+	<input type="text" name="name" placeholder="Your name" required><br><br>
+	<input type="email" name="email" placeholder="Your email" required>
 	<label> Phone number:</label><br>
-	<input type="tel" required><br><br>
+	<input type="tel" name="tel" placeholder ="Your tel" required><br><br>
 	
 	<label> Select Service:</label><br>
 	<select>
@@ -23,10 +23,10 @@
 	</select><br><br>
 	
 	<label> Preferred date:</label><br>
-	<input type="date"><br><br>
+	<input type="date" name="date" placeholder="Your preferred date" required><br><br>
 	
 	<label> Preferred date:</label><br>
-	<input type="time"><br><br>
+	<input type="time" name="time" placeholder="Your preferred time" required><br><br>
 	
 	<button type="submit">Book Now</button>
 </form>
